@@ -4,23 +4,26 @@ import { Pagination, Navigation, Autoplay } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import one from "./media/1.jpeg";
+import two from "./media/22.jpeg";
+import three from "./media/3.jpeg";
+import four from "./media/4.jpeg";
+import five from "./media/5.jpeg";
 const exps = [
   {
     name: "Dua Lipa",
     text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, reprehenderit placeat. Explicabo doloribus molestias odio! ",
-    image:
-      "https://lastfm.freetls.fastly.net/i/u/ar0/48c821ce7558cda2115fe95bb3b9d8f4",
+    image: one,
   },
   {
     name: "Ava Max",
     text: "lorem1500, dolor sit amet consectetur adipisicing elit",
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4ZZiNl4XSGjv8s09ITMwgVu1wnp-XmHc0hw&usqp=CAU",
+    image: two,
   },
   {
     name: "Fulanito",
     text: "Lour adipisicing elit. Illum nisi laboriosam eligendi cum officia, iste corrupti modi recusandae ad, inventore rem qui, sequi ex soluta. ",
-    image: "https://pbs.twimg.com/media/EbNX_erVcAUlwIx.jpg:large",
+    image: three,
   },
 ];
 const Experiences = () => {
